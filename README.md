@@ -1,2 +1,2 @@
-# TOMA
+# Toma
 Develoipng an E-commerce website
