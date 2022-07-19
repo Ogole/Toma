@@ -18,8 +18,15 @@ class Membership_Registration(models.Model):
      ]
      Village=models.CharField(max_length=40, Village_Type_choices, default=Aunga)
      Parish_Type_Choices=[
+          ('Kuru','Kuru'),
+          ('Kuru town council','Kuru town council'),
+          ('Kei','Kei'),
+         
           
      ]
+     Parish=models.CharField(max_length=50, Parish_Type_Choices, default=Kuru)
+     Sub_county=models.CharField(max_length=30)
+     District=models.CharField(max_length=50)
 
 
 
